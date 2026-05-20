@@ -30,7 +30,7 @@ export type Profile = {
 export const profile: Profile = {
   handle: "pim4n",
   name: "Piliman22",
-  title: "Software Developer",
+  title: "Software Developer and Highschool Student",
   location: "Japan",
   status: "Building web apps, APIs, and small tools.",
   bio: [
@@ -71,6 +71,30 @@ export const profile: Profile = {
       description: "ターミナル風のポートフォリオ。ブラウザと curl の両方で読みやすく表示します。",
       stack: ["TypeScript", "Cloudflare Workers"],
       href: "https://github.com/Piliman22/PortfolioPage"
+    },
+    {
+      name: "tasoller-cli-linux",
+      description: "tasoller を Linux でコマンドラインから操作するためのツール。",
+      stack: ["Rust"],
+      href: "https://github.com/Piliman22/tasoller-cli-linux"
+    },
+    {
+      name: "sonolus-fastapi",
+      description: "Sonolus のサーバーを FastAPI をラッパーにして実装したプロジェクト。\n\n`pip install sonolus-fastapi` でインストールできます。",
+      stack: ["Python", "FastAPI"],
+      href: "https://github.com/Untitled-Sekai/sonolus-fastapi"
+    },
+    {
+      name: "sonolus-models",
+      description: "Sonolus のサーバー等で使うモデルを Pydantic で実装したプロジェクト。\n\n`pip install sonolus-models` でインストールできます。",
+      stack: ["Python", "Pydantic"],
+      href: "https://github.com/Untitled-Sekai/sonolus-model"
+    },
+    {
+      name: "ScoreSync",
+      description: "とある譜面ファイルを更新したら、Sonolusのローカルサーバーの分も更新するツール。",
+      stack: ["Node.js", "TypeScript"],
+      href: "https://github.com/Piliman22/ScoreSync"
     }
   ],
   contact: {
