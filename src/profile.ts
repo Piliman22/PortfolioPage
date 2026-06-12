@@ -95,6 +95,12 @@ export const profile: Profile = {
       description: "とある譜面ファイルを更新したら、Sonolusのローカルサーバーの分も更新するツール。",
       stack: ["Node.js", "TypeScript"],
       href: "https://github.com/Piliman22/ScoreSync"
+    },
+    {
+      name: "月曜が近いよbot",
+      description: "Discord Webhook URL を登録すると、毎週日曜日の夜に月曜が近いことを動画とともに通知する。",
+      stack: ["Rust", "Typescript", "Cloudflare Pages"],
+      href: "https://mondaybot.pages.dev/"
     }
   ],
   contact: {
